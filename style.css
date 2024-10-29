@@ -1,0 +1,50 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white; /* Fundo branco */
+    color: #333; /* Texto em um cinza escuro */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #4CAF50; /* Verde */
+}
+
+.container {
+    width: 300px; /* Largura do formulário */
+    margin: 100px auto; /* Centraliza na tela */
+    padding: 20px;
+    border: 1px solid #4CAF50; /* Borda verde */
+    border-radius: 5px; /* Cantos arredondados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: white; /* Fundo branco do formulário */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Margem */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+button {
+    width: 100%; /* Largura total */
+    padding: 10px; /* Espaçamento interno */
+    background-color: #4CAF50; /* Verde */
+    color: white; /* Texto branco */
+    border: none; /* Sem borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Mão ao passar o mouse */
+}
+
+button:hover {
+    background-color: #45a049; /* Verde escuro ao passar o mouse */
+}
+
+.error {
+    color: red; /* Cor do texto de erro */
+    margin: 10px 0; /* Margem */
+}
